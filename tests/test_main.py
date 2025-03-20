@@ -8,7 +8,7 @@ client = TestClient(app)
 def sample_client_data():
     """Données réduites pour un client fictif"""
     return {
-        "client_id": 5062,
+        "client_id": 562,
         "data": {
             "DAYS_BIRTH": -12000,
             "AMT_CREDIT": 50000.0,
