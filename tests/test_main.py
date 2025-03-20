@@ -25,7 +25,7 @@ def test_home():
 
 def test_get_client_info_existing():
     """Test récupération d'un client existant"""
-    response = client.get("/client_info/5062")
+    response = client.get("/client_info/562")
     assert response.status_code == 200
     assert "client_id" in response.json()
 
@@ -57,7 +57,7 @@ def test_global_feature_importance():
 
 def test_local_feature_importance_existing():
     """Test récupération des features importantes pour un client existant"""
-    response = client.get("/feature_importance_local/5062")
+    response = client.get("/feature_importance_local/562")
     assert response.status_code == 200
     assert isinstance(response.json(), dict)
 
