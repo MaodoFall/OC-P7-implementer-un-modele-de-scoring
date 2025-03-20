@@ -1,0 +1,25 @@
+artifact_path: lgbm_scaled
+flavors:
+  lightgbm:
+    code: null
+    data: model.pkl
+    lgb_version: 4.5.0
+    model_class: lightgbm.sklearn.LGBMClassifier
+  python_function:
+    data: model.pkl
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.lightgbm
+    python_version: 3.12.7
+is_signature_from_type_hint: false
+mlflow_version: 2.20.1
+model_size_bytes: 374277
+model_uuid: b95bd6226bd648fc98bfa6c004666931
+run_id: b97fbe05eb834fb09016b64da09dbe2f
+signature:
+  inputs: '[{"type": "tensor", "tensor-spec": {"dtype": "float64", "shape": [-1, 136]}}]'
+  outputs: '[{"type": "long", "name": "TARGET", "required": true}]'
+  params: null
+type_hint_from_example: false
+utc_time_created: '2025-02-12 18:01:23.767130'
