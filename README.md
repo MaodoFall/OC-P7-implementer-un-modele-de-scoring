@@ -72,7 +72,7 @@ Développer et mettre en production un **modèle de scoring crédit** capable de
 ## 🙋‍♂️ Réalisé par
 
 **Maodo FALL**  
-Data Scientist*  
+*Data Scientist*  
 
 ---
 
